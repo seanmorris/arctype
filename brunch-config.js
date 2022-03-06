@@ -1,10 +1,10 @@
-const { exec } = require('child_process');
-
 module.exports = {
+
 	files: {
 		javascripts: {joinTo: 'app.js'}
 		, stylesheets: {joinTo: 'app.css'}
 	}
+
 	, plugins: {
 		babel: {
 			presets:   ['@babel/preset-env']
@@ -18,26 +18,24 @@ module.exports = {
 			tokens: { BUILD_TIME: ()=> Date.now() }
 		}
 	}
+
 	, paths: {
-		public: './docs'
+		watched:  ['source']
+		, public: './docs'
 	}
+
 	, watcher: {
 		awaitWriteFinish: true
 	}
-};
 
-exports.hooks = {
-	preCompile: () => {
-		console.log('About to compile...');
-		exec(
-			`pushd ../curvature-2 && npm link && popd && npm link curvature`
-			, (err, stdout, stderr)=>{
-				console.log(err);
-				console.log(stdout);
-				console.log(stderr);
+	, modules: {
+		nameCleaner: path => path.replace(/^(source)?\//, 'arctype/')
+	}
 
-				return Promise.resolve();
-			}
-		)
+	, npm: {
+		enabled: true
+		, styles: {
+			// arctype: ["arc-type.css"]
+		}
 	}
 };

@@ -8,6 +8,14 @@ ArcType is modeled after Steam's Daisywheel input method.
 
 [![](https://arctype.seanmorr.is/example.png)](https://arctype.seanmorr.is/)
 
+## Install
+
+Install arctype with `npm`:
+
+```bash
+$ npm i arctype
+````
+
 ## Typing
 
 *ArcType requires a gamepad.*
@@ -27,3 +35,36 @@ ArcType is modeled after Steam's Daisywheel input method.
 * Left trigger switches to capitals and symbols
 
 * Right trigger switches to numbers and symbols
+
+## Usage
+
+Then make your packager aware of the stylesheets located in `node_modules/arctype/arctype.css`. For example, if you're using [Brunch]() then you can add the following to your `brunch-config.js` file:
+
+```js
+exports.npm = {
+	enabled: true,
+	styles: {arctype: ["arctype.css"]}
+}
+```
+
+Then, import the class, render an instance to the body, and call `.activate` with the element you're editing as the first and only parameter.
+
+```javascript
+import { ArcType } from './ArcType';
+
+const arc  = new ArcType;
+
+document.addEventListener('DOMContentLoaded', () => arc.render(document.body));
+
+document.addEventListener('focus', event => {
+	if(!event.target.matches('input[type="text"],textarea,input:not([type])'))
+	{
+		return;
+	}
+
+	arc.activate(event.target);
+}, {capture: true});
+
+```
+
+&copy; 2021 - 2022 Sean Morris

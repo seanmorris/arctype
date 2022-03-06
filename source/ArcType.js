@@ -3,7 +3,7 @@ import { Gamepad } from 'curvature/input/Gamepad';
 
 export class ArcType extends View
 {
-	template = require('./arc-type.html');
+	template = require('./arctype.html');
 
 	constructor(args, parent)
 	{
@@ -217,5 +217,11 @@ export class ArcType extends View
 		}
 
 		this.args.active  = false;
+	}
+
+	focus(event)
+	{
+		event.stopPropagation();
+		event.stopImmediatePropagation();
 	}
 }

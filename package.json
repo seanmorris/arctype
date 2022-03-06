@@ -23,5 +23,9 @@
     "clean-css-brunch": "^3",
     "raw-brunch": "^1.0.2",
     "uglify-es-brunch": "^1"
-  }
+  },
+  "files": [
+    "ArcType.js",
+    "arctype.css"
+  ]
 }
