@@ -10,12 +10,6 @@ https://user-images.githubusercontent.com/640101/156935449-136bc56c-fa0c-4164-82
 
 ## Install
 
-Install arctype with `npm`:
-
-```bash
-$ npm i arctype
-````
-
 ## Typing
 
 *ArcType requires a gamepad.*
