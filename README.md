@@ -1,6 +1,6 @@
 # ArcType
 
-**Quicker typing for gamepads.**
+**Quicker typing for gamepads on the Web.**
 
 ArcType is modeled after Steam's Daisywheel input method.
 
