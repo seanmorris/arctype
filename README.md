@@ -54,17 +54,22 @@ import { ArcType } from './ArcType';
 
 const arc  = new ArcType;
 
+// Render arctype to the document body when the DOM is ready
 document.addEventListener('DOMContentLoaded', () => arc.render(document.body));
 
+// Trigger ArcType on element focus
 document.addEventListener('focus', event => {
+
+	// Ignore everything except typeable inputs and textareas
 	if(!event.target.matches('input[type="text"],textarea,input:not([type])'))
 	{
 		return;
 	}
 
+	// Actvate arctype for the focused element
 	arc.activate(event.target);
-}, {capture: true});
 
+}, {capture: true});
 ```
 
 &copy; 2021 - 2022 Sean Morris

@@ -7516,18 +7516,22 @@ var root = _View.View.from("\n\t<h1>ArcType Demo</h1>\n\t<p>Quicker typing for g
 document.addEventListener('DOMContentLoaded', function () {
   return root.render(document.body);
 });
-var arc = new _ArcType.ArcType();
+var arc = new _ArcType.ArcType(); // Render arctype to the document body when the DOM is ready
+
+document.addEventListener('DOMContentLoaded', function () {
+  return arc.render(document.body);
+}); // Trigger ArcType on element focus
+
 document.addEventListener('focus', function (event) {
+  // Ignore everything except typeable inputs and textareas
   if (!event.target.matches('input[type="text"],textarea,input:not([type])')) {
     return;
-  }
+  } // Actvate arctype for the focused element
+
 
   arc.activate(event.target);
 }, {
   capture: true
-});
-document.addEventListener('DOMContentLoaded', function () {
-  return arc.render(document.body);
 });
 });
 
