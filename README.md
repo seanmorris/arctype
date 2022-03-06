@@ -6,7 +6,7 @@ ArcType is modeled after Steam's Daisywheel input method.
 
 ## Typing
 
-![](/example.png)
+![](https://arctype.seanmorr.is/example.png)
 
 * Push the left stick in the direction containing the character you want to type. When the group expands, press the coresponding face button to type the character.
 
