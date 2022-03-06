@@ -50,7 +50,7 @@ exports.npm = {
 Then, import the class, render an instance to the body, and call `.activate` with the element you're editing as the first and only parameter.
 
 ```javascript
-import { ArcType } from './ArcType';
+import { ArcType } from 'arctype/ArcType';
 
 const arc  = new ArcType;
 
