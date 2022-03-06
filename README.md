@@ -10,6 +10,8 @@ ArcType is modeled after Steam's Daisywheel input method.
 
 * Push the left stick in the direction containing the character you want to type. When the group expands, press the coresponding face button to type the character.
 
+* Press start to close ArcType, insert the text, and return to the page.
+
 * Press left and right on the d-pad to move the text cursor.
 
 * Click the left and right stick to select text.
