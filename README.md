@@ -4,9 +4,9 @@
 
 ArcType is modeled after Steam's Daisywheel input method.
 
-[View the Demo](https://arctype.seanmorr.is/)
+https://user-images.githubusercontent.com/640101/156935449-136bc56c-fa0c-4164-82e7-d3b3db2c0e93.mp4
 
-[![](https://arctype.seanmorr.is/example.png)](https://arctype.seanmorr.is/)
+[Live Demo](https://arctype.seanmorr.is/)
 
 ## Install
 
