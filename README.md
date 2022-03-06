@@ -25,4 +25,3 @@ ArcType is modeled after Steam's Daisywheel input method.
 * Left trigger switches to capitals and symbols
 
 * Right trigger switches to numbers and symbols
-
