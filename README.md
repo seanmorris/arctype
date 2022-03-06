@@ -4,7 +4,7 @@
 
 ArcType is modeled after Steam's Daisywheel input method.
 
-![](https://arctype.seanmorr.is/example.png)
+[![](https://arctype.seanmorr.is/example.png)](https://arctype.seanmorr.is/)
 
 ## Typing
 
