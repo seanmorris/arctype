@@ -1,0 +1,36 @@
+body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+h1, p, section.form, section.footer {
+  padding-top: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+section.form,
+section.form input {
+  font-size: 1.65rem;
+}
+
+section.form {
+  display: flex;
+  height: 50%;
+  align-items: center;
+  justify-content: center;
+}
+
+
+section.footer {
+  width: 100%;
+  text-align: right;
+  background-color: black;
+  color: white;
+  flex: 1;
+}
