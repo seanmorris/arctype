@@ -1,6 +1,6 @@
 # ArcType
 
-**Quicker typing for gamepads on the Web.**
+*Quicker typing for gamepads on the Web.*
 
 ArcType is modeled after Steam's Daisywheel input method.
 
@@ -9,6 +9,8 @@ ArcType is modeled after Steam's Daisywheel input method.
 [![](https://arctype.seanmorr.is/example.png)](https://arctype.seanmorr.is/)
 
 ## Typing
+
+*ArcType requires a gamepad.*
 
 * Push the left stick in the direction containing the character you want to type. When the group expands, press the coresponding face button to type the character.
 
