@@ -4,9 +4,9 @@
 
 ArcType is modeled after Steam's Daisywheel input method.
 
-## Typing
-
 ![](https://arctype.seanmorr.is/example.png)
+
+## Typing
 
 * Push the left stick in the direction containing the character you want to type. When the group expands, press the coresponding face button to type the character.
 
