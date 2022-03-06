@@ -38,7 +38,7 @@ $ npm i arctype
 
 ## Usage
 
-Then make your packager aware of the stylesheets located in `node_modules/arctype/arctype.css`. For example, if you're using [Brunch]() then you can add the following to your `brunch-config.js` file:
+Then make your packager aware of the stylesheets located in `node_modules/arctype/arctype.css`. For example, if you're using [Brunch](https://brunch.io/) then you can add the following to your `brunch-config.js` file:
 
 ```js
 exports.npm = {
