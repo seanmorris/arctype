@@ -6555,7 +6555,7 @@ module.exports = "<div class = \"arctype-host\" data-active = \"[[active]]\">\n\
 
 var _View = require("curvature/base/View");
 var _ArcType = require("./ArcType");
-var root = _View.View.from("\n\t<div class = \"page-wrapper\">\n\t\t<h1>ArcType Demo</h1>\n\t\t<p>Quicker typing for gamepads.</p>\n\t\t<section class = \"form\">\n\t\t\t<label>Test input: <input /></label>\n\t\t</section>\n\t\t<section class = \"footer\">&copy; 2021 - 2024 Sean Morris</section>\n\t</div>\n");
+var root = _View.View.from("\n\t<div class = \"page-wrapper\">\n\t\t<h1>ArcType Demo</h1>\n\t\t<p>\n\t\t\tQuicker typing for gamepads.\n\t\t\t<a cv-link = \"https://github.com/seanmorris/arctype\">GitHub</a> / <a cv-link = \"https://npmjs.com/package/@seanmorris/arctype\">NPM</a>.\n\t\t</p>\n\t\t<section class = \"form\">\n\t\t\t<label>Test input: <input /></label>\n\t\t</section>\n\t\t<section class = \"footer\">&copy; 2021 - 2024 Sean Morris</section>\n\t</div>\n");
 document.addEventListener('DOMContentLoaded', function () {
   return root.render(document.body);
 });

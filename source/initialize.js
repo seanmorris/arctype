@@ -4,7 +4,10 @@ import { ArcType } from './ArcType';
 const root = View.from(`
 	<div class = "page-wrapper">
 		<h1>ArcType Demo</h1>
-		<p>Quicker typing for gamepads.</p>
+		<p>
+			Quicker typing for gamepads.
+			<a cv-link = "https://github.com/seanmorris/arctype">GitHub</a> / <a cv-link = "https://npmjs.com/package/@seanmorris/arctype">NPM</a>.
+		</p>
 		<section class = "form">
 			<label>Test input: <input /></label>
 		</section>
