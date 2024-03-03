@@ -1,10 +1,25 @@
 body {
+  background-color: #CCC;
   font-family: sans-serif;
   padding: 0;
   margin: 0;
   height: 100%;
   display: flex;
   flex-direction: column;
+}
+
+.page-wrapper {
+  background-color: #FFF;
+  border: 1px solid #444;
+  border-bottom: none;
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 1rem;
+  box-shadow: 0rem 0rem 1rem #0004;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 
 h1, p, section.form, section.footer {
@@ -25,8 +40,9 @@ section.form {
   height: 50%;
   align-items: center;
   justify-content: center;
+  border-top: 1px solid #444;
+  margin-top: 1rem;
 }
-
 
 section.footer {
   width: 100%;

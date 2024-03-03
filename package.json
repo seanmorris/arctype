@@ -1,5 +1,5 @@
 {
-  "name": "arctype",
+  "name": "@seanmorris/arctype",
   "description": "Faster typing for gamepad users.",
   "author": "Sean Morris",
   "version": "0.0.0",

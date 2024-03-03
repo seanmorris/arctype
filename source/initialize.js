@@ -1,12 +1,14 @@
 import { View } from 'curvature/base/View';
 
 const root = View.from(`
-	<h1>ArcType Demo</h1>
-	<p>Quicker typing for gamepads.</p>
-	<section class = "form">
-		<label>Test input: <input /></label>
-	</section>
-	<section class = "footer">&copy; 2021 - 2022 Sean Morris</section>
+	<div class = "page-wrapper">
+		<h1>ArcType Demo</h1>
+		<p>Quicker typing for gamepads.</p>
+		<section class = "form">
+			<label>Test input: <input /></label>
+		</section>
+		<section class = "footer">&copy; 2021 - 2024 Sean Morris</section>
+	</div>
 `);
 
 document.addEventListener('DOMContentLoaded', () => root.render(document.body));
@@ -31,5 +33,3 @@ document.addEventListener('focus', event => {
 	arc.activate(event.target);
 
 }, {capture: true});
-
-

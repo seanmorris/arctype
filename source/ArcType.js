@@ -10,7 +10,6 @@ export class ArcType extends View
 		super(args, parent);
 
 		const lower  = [...Array(26)].map((v, k) => String.fromCharCode('a'.charCodeAt(0) + k));
-
 		const upper  = [...Array(26)].map((v, k) => String.fromCharCode('A'.charCodeAt(0) + k));
 		const number = [...Array(10)].map((v, k) => String.fromCharCode('0'.charCodeAt(0) + k));
 
@@ -18,11 +17,7 @@ export class ArcType extends View
 		const extraB = '!?-&;\\'.split('');
 		const extraC = '`*\'"-=[]()~:{}<>^|%$#+'.split('');
 
-		const banks = [
-			[...lower, ...extraA]
-			, [...upper, ...extraB]
-			, [...number, ...extraC]
-		];
+		const banks = [[...lower, ...extraA], [...upper, ...extraB], [...number, ...extraC]];
 
 		this.letters = banks[0];
 
@@ -41,9 +36,7 @@ export class ArcType extends View
 		});
 
 		Gamepad.getPad({deadZone:0.2, axisMap: {}}).then(pad => {
-
 			const eachFrame = () => {
-
 				pad.readInput();
 
 				if(pad.buttons[4].active && pad.buttons[4].delta)
