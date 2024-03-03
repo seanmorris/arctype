@@ -6,9 +6,9 @@ ArcType is modeled after Steam's Daisywheel input method.
 
 *⚠️ ArcType requires a gamepad ⚠️*
 
-[View the Demo](https://arctype.seanmorr.is/)
+https://user-images.githubusercontent.com/640101/156935449-136bc56c-fa0c-4164-82e7-d3b3db2c0e93.mp4
 
-<video src="https://arctype.seanmorr.is/example.mp4" width="100%" ></video>
+[Live Demo](https://arctype.seanmorr.is/)
 
 ## Install
 
