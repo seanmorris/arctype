@@ -1,4 +1,5 @@
 import { View } from 'curvature/base/View';
+import { ArcType } from './ArcType';
 
 const root = View.from(`
 	<div class = "page-wrapper">
@@ -12,8 +13,6 @@ const root = View.from(`
 `);
 
 document.addEventListener('DOMContentLoaded', () => root.render(document.body));
-
-import { ArcType } from './ArcType';
 
 const arc  = new ArcType;
 

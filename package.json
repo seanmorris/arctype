@@ -2,14 +2,10 @@
   "name": "@seanmorris/arctype",
   "description": "Faster typing for gamepad users.",
   "author": "Sean Morris",
-  "version": "0.0.0",
-  "repository": "",
-  "scripts": {
-    "start": "brunch watch --server",
-    "build": "brunch build --production"
-  },
+  "version": "0.0.1",
+  "repository": "https://github.com/seanmorris/arctype",
   "dependencies": {
-    "curvature": "^0.0.66-k"
+    "curvature": "^0.0.68-h"
   },
   "devDependencies": {
     "@babel/cli": "^7.12.10",

@@ -43,7 +43,7 @@ exports.npm = {
 Then, import the module, render an instance to the body, and call `.activate` with the element you're editing as the first and only parameter.
 
 ```javascript
-import { ArcType } from 'arctype/ArcType';
+import { ArcType } from '@seanmorris/arctype/ArcType';
 
 const arc  = new ArcType;
 
@@ -62,4 +62,4 @@ document.addEventListener('focus', event => {
 }, {capture: true});
 ```
 
-&copy; 2021 - 2022 Sean Morris
+&copy; 2021 - 2024 Sean Morris

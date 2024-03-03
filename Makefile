@@ -11,3 +11,6 @@ dependencies:
 
 clean:
 	rm -rf ArcType.js arctype.css
+
+publish:
+	npm publish --access=public
